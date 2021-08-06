@@ -14,7 +14,7 @@ Setup:
    7. Then launch the bot by running `python3 main.py`
 
 The change-prefix command isn't functional yet, the current default prefix is "=", to change it edit the DriftBot.py file and change replace "=" in:
-`bot = commands.Bot(command_prefix="=")`
+`bot = commands.Bot(command_prefix="=")`.
 
 Contact: Driftrinar.xyz
 
