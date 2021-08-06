@@ -13,7 +13,8 @@ Setup:
    6. Install discord.py by running `python3 -m pip install discord.py` in your terminal.
    7. Then launch the bot by running `python3 main.py`
 
-The change-prefix command isn't functional yet, the current default prefix is "=", to change it edit the DriftBot.py file and change replace "!" in bot = commands.Bot(command_prefix="=")
+The change-prefix command isn't functional yet, the current default prefix is "=", to change it edit the DriftBot.py file and change replace "=" in:
+`bot = commands.Bot(command_prefix="=")`
 
 Contact: Driftrinar.xyz
 
