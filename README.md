@@ -10,7 +10,7 @@ Setup:
    3. Run `cd PriusBot-beta/PriusBot` to enter the file.
    4. Create a profile in https://discord.com/developers/applications/ for your bot and copy the token.
    5. Open an editor and create a .env file for token, in the file type `TOKEN=` and put your token after that.
-   6. Install discord.py by running `python3 -m pip install discord.py` in your terminal.
+   6. Install discord.py and dotenv by running `python3 -m pip install discord.py dotenv` in your terminal.
    7. Then launch the bot by running `python3 main.py`
 
 The change-prefix command isn't functional yet, the current default prefix is "=", to change it edit the DriftBot.py file and change replace "=" in:
